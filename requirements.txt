@@ -1,0 +1,7 @@
+deepl==1.14.0
+flatdict==4.0.1
+python-dotenv==1.0.0
+PyYAML==6.0
+shadowbar==0.1.3
+
+pytest~=7.3.1
