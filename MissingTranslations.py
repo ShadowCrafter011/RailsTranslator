@@ -19,16 +19,33 @@ def find_missing_translations(files):
     for _, (lang, data) in enumerate(translations.items()):
         for _, (key, translation) in enumerate(data.items()):
             missing = translation_exists(translations, key)
+            print(missing, key)
 
             for missing_lang in missing:
-                add_array(missing_data, lang_to_file[missing_lang], {
-                    "key": key.replace(lang, missing_lang, 1),
+                item_key = key.replace(lang, missing_lang, 1)
+                filename = lang_to_file[missing_lang]
+
+                if array_contains_dict_key(missing_data, filename, item_key):
+                    continue
+
+                add_array(missing_data, filename, {
+                    "key": item_key,
                     "translation": translation,
                     "target_lang": missing_lang,
                     "source_lang": lang
                 })
 
     return missing_data
+
+
+def array_contains_dict_key(dictionary, key, item):
+    if key not in dictionary:
+        return False
+
+    for i in dictionary[key]:
+        if i["key"] == item:
+            return True
+    return False
 
 
 def translation_exists(translations, key):
