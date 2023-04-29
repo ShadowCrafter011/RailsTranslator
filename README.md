@@ -1,4 +1,6 @@
 # Rails translator
+![Rails Translator build status](https://github.com/ShadowCrafter011/RailsTranslator/actions/workflows/python-app.yml/badge.svg)
+
 Translate your whole Rails app with only this script.
 
 This script looks at all the locale files in your Rails app and identifies keys that are missing in other files in the same directory.
