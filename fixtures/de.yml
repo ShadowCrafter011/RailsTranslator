@@ -1,0 +1,43 @@
+de:
+  general:
+    settings:
+      show_email: E-mail Adresse im öffentlichen Profil anzeigen
+      dark_mode: Dunkler Modus
+    roles:
+      user: Benutzer
+      beta: Beta Tester
+      admin: Administrator
+    languages:
+      de: Deutsch
+      fr: Französisch
+      en: Englisch
+      it: Italienisch
+      es: Spanisch
+      la: Latein
+      el: Griechisch
+      rm: Romanisch
+      ja: Japanisch
+      ko: Koreanisch
+      zh: Chinesisch
+    visibilities:
+      public: Öffentlich
+      private: Privat
+      hidden: Versteckt
+    email: E-mail Adresse
+    emails: E-mail
+    username: Benutzername
+    email_or_username: Benutzername oder E-mail
+    password: Passwort
+    save: Speichern
+    c_yes: Ja
+    c_no: Nein
+    role: Rolle
+    login: Login
+    language: Sprache
+    create_account: Registrieren
+    login_required: Um hier hin zu können müssen Sie eingeloggt sein
+    password_regex: Passwort muss mindestens 8 Zeichen lang sein, einen Grossbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten
+    show_more: Mehr anzeigen
+    show_less: Weniger anzeigen
+    homepage: Homepage
+    deleted_user: Gelöschter Benutzer

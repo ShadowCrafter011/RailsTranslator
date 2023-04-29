@@ -1,0 +1,44 @@
+en:
+  general:
+    settings:
+      show_email: Show e-mail address in public profile
+      dark_mode: Dark mode
+    roles:
+      user: User
+      beta: Beta Tester
+      admin: Administrator
+    languages:
+      de: German
+      fr: French
+      en: English
+      it: Italian
+      es: Spanish
+      la: Latin
+      el: Greek
+      rm: Romansh
+      ja: Japanese
+      ko: Korean
+      zh: Chinese
+    visibilities:
+      public: Public
+      private: Privat
+      hidden: Hidden
+    email: E-mail address
+    emails: Email
+    username: Username
+    email_or_username: Username or E-mail
+    password: Passwort
+    save: Save
+    c_yes: Ja
+    c_no: "No"
+    role: Role
+    login: Login
+    language: Language
+    create_account: Register
+    login_required: You must be logged in to access this page
+    password_regex: Password must be at least 8 characters long, contain an upper case letter, a lower case letter and a number
+    show_more: Show more
+    show_less: Show less
+    homepage: Homepage
+    deleted_user: Deleted user
+    title: RailsTranslator
