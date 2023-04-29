@@ -1,0 +1,2 @@
+class NotARailsProject(Exception):
+    pass
