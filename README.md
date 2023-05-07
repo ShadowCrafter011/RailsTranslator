@@ -11,9 +11,5 @@ Make sure that there is a file for every language you want to translate to. So i
 # Getting started
 - Download or clone this Github repository
 - (Optional) Create a virtual environment
-- Install dependencies
-    1. deepl
-    2. flatdict
-    3. python-dotenv
-    4. shadowbar
+- Install dependencies `pip install -r requirements.txt`
 - Run main.py and specify the root of your Rails project
