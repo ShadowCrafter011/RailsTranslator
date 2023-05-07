@@ -19,7 +19,6 @@ def find_missing_translations(files):
     for _, (lang, data) in enumerate(translations.items()):
         for _, (key, translation) in enumerate(data.items()):
             missing = translation_exists(translations, key)
-            print(missing, key)
 
             for missing_lang in missing:
                 item_key = key.replace(lang, missing_lang, 1)
