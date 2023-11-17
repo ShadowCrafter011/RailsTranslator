@@ -53,7 +53,7 @@ def write_dict(data, file, indentation_level=0):
 
 
 def wrap_string(string):
-    if string.startswith("%"):
+    if string.startswith("%") or ":" in string:
         return f"\"{string}\""
     return string
 
