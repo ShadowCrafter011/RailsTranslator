@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 from IndexTranslations import find_translation_files
 from RailsTranslatorException import *
 from dotenv import load_dotenv

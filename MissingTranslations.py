@@ -34,6 +34,8 @@ def find_missing_translations(files):
                     "source_lang": lang
                 })
 
+                print(f"Missing translation: {item_key}. Translating {translation} from {lang} to {missing_lang}")
+
     return missing_data
 
 
