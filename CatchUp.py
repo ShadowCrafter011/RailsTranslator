@@ -74,7 +74,7 @@ def add_flat_path_to_dict(dictionary, flat_path, value):
 
 def translate(text, source_lang, target_lang):
     translator = Translator(os.getenv("AUTH_KEY"))
-    return translator.translate_text(text, source_lang=lang_key(source_lang), target_lang=lang_key(target_lang)).text
+    return translator.translate_text(text, source_lang=source_lang, target_lang=lang_key(target_lang)).text
 
 
 def lang_key(lang):
